@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NewVC.swift
 //  Reveal-Screen
 //
 //  Created by Andrew on 3/24/18.
@@ -8,13 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class RearVC: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 60
         
+
     }
 
+     
 
 }
-
